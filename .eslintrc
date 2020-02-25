@@ -1,0 +1,14 @@
+{
+    "extends": "rallycoding",
+    "parserOptions": {
+         "ecmaVersion": 6 
+    },
+    "env": {
+        "node": true,
+        "mocha": true
+    },
+     "rules": {
+         "prefer-template": "off",
+         "no-underscore-dangle": "off"
+     }
+}

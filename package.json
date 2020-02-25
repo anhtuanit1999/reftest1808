@@ -1,0 +1,33 @@
+{
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "eslint-config-rallycoding": "^3.2.0",
+    "express": "^4.17.1",
+    "mocha": "^7.0.1",
+    "mongoose": "^5.9.2",
+    "supertest": "^4.0.2"
+  },
+  "name": "reftest1808",
+  "description": "học buổi 18 Khoa Phạm https://www.youtube.com/watch?v=IvdaVUL-I4c&list=PLskv-UQHb1ihcsWVMHIvjjBWnoGkhNc_1&index=19",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "mocha --recursive -R min",
+    "start": "nodemon index.js -w js,ejs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anhtuanit1999/reftest1808.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anhtuanit1999/reftest1808/issues"
+  },
+  "homepage": "https://github.com/anhtuanit1999/reftest1808#readme"
+}
